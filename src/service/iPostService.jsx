@@ -68,7 +68,7 @@ const userSendMailInbox = () => API.get(`mails/sentMails`);
 const userTrashedMailInbox = () => API.get(`mails/getTrashedMails`);
 
 //Logout 
-const userLogout = (_id) => API.patch(`mails/logout/${_id}`)
+const userLogout = (_id) => API.patch(`users/logout/${_id}`)
 
 //Register User
 const userRegister = (values) => API.post(`/auth/register`, values);

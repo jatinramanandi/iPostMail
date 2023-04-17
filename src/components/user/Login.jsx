@@ -43,7 +43,7 @@ function Login() {
             if (!values.email) {
                 error.email = "Email is Required"
             } else if (!/^[a-zA-Z0-9]+@(ipost\.com)$/i.test(values.email)) {
-                error.email = "Enter a valid Email e.g. hello@technostakc.com"
+                error.email = "Enter a valid Email e.g. hello@ipost.com"
             }
 
             if (!values.password) {
